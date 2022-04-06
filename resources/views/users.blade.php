@@ -33,14 +33,14 @@
                                     <td>Posts</td>
                                 </tr>
                             </thead>
-                            {{-- <tbody>
-                                @foreach($data as $row)
+                            <tbody>
+                                @foreach($users as $row)
                                     <tr>
-                                        <td></td>
+                                        <td>{{$row}}</td>
                                         <td></td>
                                     </tr>
                                 @endforeach
-                            </tbody> --}}
+                            </tbody>
                         </table>
                     </div>
                 </div>
